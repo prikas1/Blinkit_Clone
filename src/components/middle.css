@@ -1,0 +1,275 @@
+
+.middle_body{
+    margin: 0px 50px;
+    border: 1px solid rgb(238, 237, 237);
+    border-bottom: 3px solid rgb(238, 237, 237);
+    border-radius: 5px;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .middle_body {
+        margin: 0px 10px;
+    }
+  }
+
+.items_section{
+    padding: 0px ;
+    margin: 0px;
+    background: rgb(244, 246, 251);
+}
+
+.left_section{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-right: 1px solid rgb(238, 237, 237);
+    padding: 25px 0px 0px 0px;
+    background-color: white;
+    position: sticky;
+  height: 100vh;
+  width: 4rem;
+  flex-grow: 1;
+  top: 0;
+  overflow-y: auto;
+    
+}
+.left_section::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+
+.img_div{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(243, 236, 236);
+    border-radius: 12px;
+    margin: 10px;
+    overflow: hidden;  
+  position: relative;
+}
+
+.img_div img {
+    width: 100%;  
+    height: 100%; 
+    object-fit: cover;  
+  }
+
+p{
+    padding: 20px 10px 0px 10px;
+}
+
+.intems_list{
+  border: 1px solid rgb(235, 226, 226);
+  color: black;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .intems_list {
+        display: block !important;
+        font-size: 13px;
+        border: none;
+    }
+
+    .intems_list p{
+        padding-top: 0px;
+        margin-bottom: 0px;
+        font-size: 12px;
+        
+    }
+
+    
+}
+
+.intems_list.active {
+    background-color: rgb(235, 255, 239);
+  }
+  
+
+
+
+.intems_list:hover{
+    background-color: rgb(235, 255, 239);
+}
+.Heading_filter_section{
+    height: 30px;
+    background-color: white;
+    padding: 30px 15px;
+    text-align: center;
+    display: block;
+}
+
+@media only screen and (max-width: 887px) {
+    .headingFilterContainer {
+      display: none;
+    }
+  }
+
+.filter_section p{
+    color: grey;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.filter{
+    border: 1px solid rgb(219, 216, 216);
+    color: green;
+    width: 200px;
+    border-radius: 5px;
+    align-items: center;
+    margin: 0px 30px 0px 15px;
+    font-size: 13px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+h5{
+    margin: 0px;
+}
+
+.filter_items_container {
+    display: flex;
+    flex-wrap: wrap; 
+   background-color: rgb(241, 234, 234);
+  }
+
+
+/* SEO section CSS */
+
+.SEO_Section_container{
+    padding: 30px 60px;
+    border-top: 1px solid rgb(230, 220, 220);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.SeoContainerSeoTitle {
+   
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    padding: 5px 0px 4px;
+}
+
+.content_container p{
+    padding: 0px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: grey;
+    text-align: left;
+
+}
+
+.SEOContainerDiscription {
+    margin-bottom: 24px;
+    font-size: 16px;
+    text-align: left;
+    color: rgb(117, 113, 113);
+    font-size: 17px;
+    font-weight: 450;
+}
+
+.SeoContainerQuestion {
+   
+    color: rgb(102, 102, 102);
+    font-size: 14px; 
+    font-weight: 550;
+    margin-bottom: 8px;
+}
+
+.SeoContainerAnswer {
+ 
+    color: rgb(153, 153, 153);
+    font-size: 13px;
+    font-weight: 530;
+    margin-bottom: 32px;
+    line-height: 18px;
+}
+
+.SEOQnAContainer{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+.SEO_section_content_Footer{
+    padding: 10px 0px;
+}
+
+.content_container{
+    align-items: left !important;
+   
+    margin-right: 20px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+.table_section{
+   
+    margin-left: 20px;
+    padding: 0px;
+    margin-left: auto;
+    flex: 1 1 0%;
+    text-align: left;
+}
+
+.SeoContainer__SeoTitle {
+    
+    font-weight: 600;
+    color: rgb(54, 21, 21);
+    font-size: 18px;
+    margin-bottom: 24px;
+    padding: 5px 0px 4px;
+    text-align: left;
+}
+
+a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.SeoContainerTable {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+
+.SeoContainer {
+    border-bottom: 1pt solid rgb(102, 102, 102);
+    margin: 5px 0px;
+} 
+
+td, th{
+    text-align: left;
+    color: grey;
+    font-size: 13px;
+}
+
+.SeoContainer__BrandLink{
+    color: green;
+}
+
+
+
+  .SeoContainer__Tr {
+    border-bottom: none; 
+  }
+
+  .SeoContainer__Tr th,
+  .SeoContainer__Tr td {
+    padding: 0px;
+    border: none; 
+  }
+
+  
+

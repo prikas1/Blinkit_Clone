@@ -1,0 +1,72 @@
+.DownloadAppHeader{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .DownloadAppHeader {
+      display: block;
+    }
+  }
+
+.DownloadAppHeaderContainer {
+    background: rgb(49, 134, 22);
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 40px 12px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    z-index: 1000;
+    height: 60px;
+    transition: height 0.5s;
+    overflow: hidden;
+}
+
+.BlinkitLogo {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+img {
+    border-style: none;
+}
+
+.InfoHeadingContainer {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    gap: 2px;
+}
+
+.InfoHeading {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 1.2;
+}
+
+.InfoSubHeading {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 1.2;
+}
+
+.UseAppButton {
+    display: flex;
+    height: fit-content;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 7px;
+    background: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.83px;
+}
