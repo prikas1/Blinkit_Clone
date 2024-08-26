@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Blinkit_Clone/static/css/main.95c84649.css",
+    "main.js": "/Blinkit_Clone/static/js/main.62a17ab1.js",
+    "static/js/453.0d74123b.chunk.js": "/Blinkit_Clone/static/js/453.0d74123b.chunk.js",
+    "index.html": "/Blinkit_Clone/index.html",
+    "main.95c84649.css.map": "/Blinkit_Clone/static/css/main.95c84649.css.map",
+    "main.62a17ab1.js.map": "/Blinkit_Clone/static/js/main.62a17ab1.js.map",
+    "453.0d74123b.chunk.js.map": "/Blinkit_Clone/static/js/453.0d74123b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95c84649.css",
+    "static/js/main.62a17ab1.js"
+  ]
+}
